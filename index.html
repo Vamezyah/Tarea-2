@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de adivinar el numero</title>
+    <link rel="stylesheet" href ="estilos.css">
+</head>
+<body>
+    <h1>Juego de adivinar el numero</h1>
+    <div class="resultParas">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+    </div> 
+    <div class="wrapper">
+        <div class="dos">
+            <div class="fondo">
+                <p>El juego consiste en adivinar un número del 1 al 100.</p>
+                <p>Solo tienes 10 intentos. Piensa en la técnica que usarás y mucha suerte.</p>
+                <p>Aunque no lo vas a lograr.</p>
+            </div>
+        </div>
+        <div class="uno"><img src="albert-einstein.jpg" class="imagen"alt="">
+        </div> 
+    </div>
+    <div class="fondo">
+        <label for="guessField">Escribe el numero: </label>
+        <input type="text" id="guessField" class="guessField" />
+        <input type="submit" value="Enviar respuesta" class="guessSubmit" /> 
+    </div>
+</body>
+</html>
+<script src="main.js"></script>
